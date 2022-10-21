@@ -1,7 +1,12 @@
+body {
+    background-color: gray;
+}
+
 h1 {
     color: gray;
 }
 .container {
+    background-color: white;
     width: 30%;
     text-align: center;
     height: 500px;
@@ -27,10 +32,12 @@ h1 {
 
    li {
     text-align: left;
+    font-weight: 400;
+    text-transform: capitalize;
    }
 
    button{
     border: none;
     background-color: white;
-    color: red;
+    color: gray;
    }

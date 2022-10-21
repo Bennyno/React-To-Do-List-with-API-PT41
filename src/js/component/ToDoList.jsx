@@ -79,7 +79,7 @@ function putList() {
             <li key={idx}>
               {item.label}&nbsp;&nbsp;
               <button onClick={()=>removeHandler(idx)}>
-                <strong>X</strong>
+                <i class="fas fa-trash-alt"></i>
               </button>
             </li>
           );
